@@ -15,14 +15,14 @@ namespace ООП.Animals
         public int Age { get; set; }
         public double Weight { get; set; }
         public BiomType Biom { get; protected set; }
-        public int Square { get; protected set; }
+        public int Square { get; protected set; } 
         public bool IsPredator { get; protected set; }
         public List<FoodType> Food { get; protected set; }
         public int MaxFoodForDay { get; protected set; }
         public int EatenFood { get; protected set; }
 
         protected string _sound;
-        public AbstractAnimals(string name, int age, double weight)
+        public AbstractAnimals(string name, int age, double weight) // 
         {
             Name = name;
             Age = age;

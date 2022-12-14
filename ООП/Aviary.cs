@@ -7,9 +7,9 @@ namespace ООП
     public class Aviary
     {
         public List<AbstractAnimals> Animals { get; set; }
-        public string AviaryName { get; set; }
-        public int  AviarySquare { get; set; }
-        public BiomType AviaryBiom { get; private set; }
+        public string AviaryName { get; set; } 
+        public int  AviarySquare { get; set; } 
+        public BiomType AviaryBiom { get;  set; } 
         public Aviary(string aviaryname, int aviarysquare)
         {
             AviaryName = aviaryname;
@@ -51,7 +51,7 @@ namespace ООП
             }
             else
             {
-                Animals.Add(animal);
+                //Animals.Add(animal); //rabotayet bez etogo
                 return new Message()
                 {
                     Text = $"{animal.Name} poselilsa v {AviaryName}",
