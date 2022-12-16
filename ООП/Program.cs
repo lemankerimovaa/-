@@ -1,5 +1,5 @@
 ﻿using ООП;
-using ООП.Animals; 
+using ООП.Animals;
 using ООП.Options;
 
 /*AbstractAnimals penguin = new PenguinAnimal("Tulupchik", 5, 10);

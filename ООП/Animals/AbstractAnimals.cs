@@ -32,14 +32,18 @@ namespace ООП.Animals
         /*public Message ToEat(int kg, FoodType eat)
         {
             if (Food.Contains(eat))
+        {
+            if (Eats.Contains(eat))
             {
                 Message msg = new Message()
                 {
+
                     Text = $"{Name} poyel {kg} kilogramma {eat}",
                     Name = Name,
                     MessageType = MessageType.Eat
                 };
                 return msg;
+
             }
             else if (kg>MaxFoodForDay)
             {
@@ -52,14 +56,14 @@ namespace ООП.Animals
                 return msg;
             }
             else
+        {
+            Message msg = new Message()
             {
-                Message msg = new Message()
-                {
                     Text = $"{Name} otkazalsa ot {eat}",
-                    Name = Name,
+                Name = Name,
                     MessageType = MessageType.Eat
-                };
-                return msg;
+            };
+            return msg;
             }*/
         public virtual Message ToSound()
         {

@@ -1,4 +1,9 @@
-﻿using ООП.Animals;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ООП.Animals;
 using ООП.Options;
 
 
@@ -75,12 +80,13 @@ namespace ООП
             for(int i = 0; i < Animals.Count; i++)
             {
                 if (Animals[i].IsPredator  && animal.IsPredator)
-                {
+        {
                     return true;
                 }
             }
             return true;
         }
+        
     }
 }
 
